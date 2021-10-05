@@ -1,0 +1,21 @@
+header {
+  figure {
+    height: 90px;
+  }
+  ul {
+    a {
+      padding: 10px;
+      color: $dark-grey;
+      &.selected {
+        color: $blue;
+        border-bottom: 2px solid $blue;
+      }
+      &:hover {
+        color: $blue;
+        border-bottom: 2px solid $blue;
+      }
+    }
+  }
+};
+
+ 
