@@ -12,4 +12,6 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
-    .sass('resources/sass/app.scss', 'public/css');
+    .sass('resources/sass/app.scss', 'public/css')
+    .options({ processCssUrls: false });
+    //^VA AGGIUNGTA LA RIGA 16 PER FARE PARTIRE TUTTI GLI URL DELLE IMG E DEI LINK DA PUBLIC.
