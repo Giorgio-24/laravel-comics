@@ -1,16 +1,87 @@
 //=FOOTER
 footer {
-    background-image: url("./assets/img/footer-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    //!!!!!!! NON VA L'URL
+        background-image: url("../images/footer-bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; 
 
     >div{
         height: 100%;
-        background-image: url("./assets/img/dc-logo-bg.png");
+        //!!!!!!! NON VA L'URL
+         background-image: url("../images/dc-logo-bg.jpg");
         background-repeat: no-repeat;
         background-size: contain;
         background-position-x: 100%;
         background-position-y: 75px;
+     
+        section.footer-list {
+            padding: 30px 0;
+          
+            > div {
+              margin-bottom: 115px;
+              div {
+                margin: 0 15px;
+          
+                h3 {
+                  color: #fff;
+                  font-size: 22px;
+                  margin: 20px 0;
+                }
+              }
+            }
+            li {
+              padding: 5px 0;
+              a {
+                color: $lighter-grey;
+                &:hover {
+                  color: #fff;
+                  border-bottom: 2px solid $blue;
+                }
+              }
+            }
+          }
+          
+
+
+
+        
     }
+    section.socials {
+        background-color: $dark-grey;
+        height: 105px;
+      
+        div.container {
+/*               @include justify("between");
+          @include center("y"); */
+      
+           div.sign-up-box {
+            a {
+              color: #fff;
+              border: 3px solid $blue;
+              padding: 15px;
+              /* font-weight: normal; */
+            }
+          }
+/*               ul {
+            @include center("y");
+          } */
+          a {
+            padding: 25px 10px;
+            height: 100%;
+            &.text-uppercase {
+              color: $blue;
+              font-weight: bold;
+              &:hover {
+                transform: scale(1.1);
+                color: $blue;
+              }
+            }
+            &:hover {
+              filter: brightness(0) invert(1);
+            }
+          }
+        }
+      }
   }
+
+  

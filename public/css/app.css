@@ -11277,15 +11277,71 @@ header ul a:hover {
 }
 
 footer {
-  background-image: url("./assets/img/footer-bg.jpg");
+  background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 footer > div {
   height: 100%;
-  background-image: url("./assets/img/dc-logo-bg.png");
+  background-image: url("../images/dc-logo-bg.jpg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: 100%;
   background-position-y: 75px;
+}
+footer > div section.footer-list {
+  padding: 30px 0;
+}
+footer > div section.footer-list > div {
+  margin-bottom: 115px;
+}
+footer > div section.footer-list > div div {
+  margin: 0 15px;
+}
+footer > div section.footer-list > div div h3, footer > div section.footer-list > div div .h3 {
+  color: #fff;
+  font-size: 22px;
+  margin: 20px 0;
+}
+footer > div section.footer-list li {
+  padding: 5px 0;
+}
+footer > div section.footer-list li a {
+  color: #c5c4c4;
+}
+footer > div section.footer-list li a:hover {
+  color: #fff;
+  border-bottom: 2px solid #0282f9;
+}
+footer section.socials {
+  background-color: #303030;
+  height: 105px;
+}
+footer section.socials div.container {
+  /*               @include justify("between");
+            @include center("y"); */
+  /*               ul {
+              @include center("y");
+            } */
+}
+footer section.socials div.container div.sign-up-box a {
+  color: #fff;
+  border: 3px solid #0282f9;
+  padding: 15px;
+  /* font-weight: normal; */
+}
+footer section.socials div.container a {
+  padding: 25px 10px;
+  height: 100%;
+}
+footer section.socials div.container a.text-uppercase {
+  color: #0282f9;
+  font-weight: bold;
+}
+footer section.socials div.container a.text-uppercase:hover {
+  transform: scale(1.1);
+  color: #0282f9;
+}
+footer section.socials div.container a:hover {
+  filter: brightness(0) invert(1);
 }
