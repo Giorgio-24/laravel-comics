@@ -24,8 +24,13 @@
             <input type="search" placeholder="Search" name="" id="">
           </div>
         </div>
-      </header>
-      <footer>
+    </header>
+    <main>
+      <section>
+        <div class="main-jumbotron"></div>
+      </section>
+    </main>
+    <footer>
         <div class="footer-bg">
           <section class="footer-list container">
             <div class="d-flex">
@@ -115,5 +120,5 @@
           </div>
          </section>
       </footer> 
-    </body>
+</body>
 </html>

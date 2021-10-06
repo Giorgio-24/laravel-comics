@@ -11276,6 +11276,12 @@ header ul a:hover {
   border-bottom: 2px solid #0282f9;
 }
 
+div.main-jumbotron {
+  height: 400px;
+  background-image: url("../images/jumbotron.jpg");
+  background-size: cover;
+}
+
 footer {
   background-image: url("../images/footer-bg.jpg");
   background-repeat: no-repeat;
